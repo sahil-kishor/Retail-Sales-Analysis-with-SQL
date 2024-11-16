@@ -1,5 +1,4 @@
 # Retail Sales Analysis with SQL
-### Project
 
 ## Project Overview
 
