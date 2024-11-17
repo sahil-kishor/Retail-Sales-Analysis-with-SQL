@@ -465,7 +465,7 @@ ORDER BY
   
 - **Customer Insights**:
       * The top-spending customers contribute significantly to revenue.
-      * Customer segmentation reveals different purchasing behaviors, including frequent buyers, high spenders, and standard customers.
+  * Customer segmentation reveals different purchasing behaviors, including frequent buyers, high spenders, and standard customers.
 
 - **Customer Analysis**:
     * Total Unique Customers: 128 unique customers purchased items across all specified categories.
