@@ -464,8 +464,8 @@ ORDER BY
   Monthly sales show fluctuations, helping to identify peak seasons and areas requiring attention in low-sales periods.
   
 - **Customer Insights**:
-      * The top-spending customers contribute significantly to revenue.
-  * Customer segmentation reveals different purchasing behaviors, including frequent buyers, high spenders, and standard customers.
+	* The top-spending customers contribute significantly to revenue.
+	* Customer segmentation reveals different purchasing behaviors, including frequent buyers, high spenders, and standard customers.
 
 - **Customer Analysis**:
     * Total Unique Customers: 128 unique customers purchased items across all specified categories.
