@@ -1,5 +1,8 @@
 # **Retail Sales Analysis with SQL**
 
+![AdobeStock_269096133-1920x1280](https://github.com/user-attachments/assets/e34ffc1b-08a8-4d88-a93a-c177ee607683)
+
+
 ## Project Overview
 
 **Project Title**: Retail Sales Analysis  
@@ -493,7 +496,7 @@ ORDER BY
     * Growth Rate: The sales growth rate remained at 0% throughout the year, indicating stagnation in sales.
     * Business Implication: The lack of growth or stagnation in sales raises questions regarding possible reasons, such as external market factors or internal issues. Further investigation into marketing campaigns, product offerings, or external conditions is necessary.
 
-## Reports
+![1686691989263](https://github.com/user-attachments/assets/4d0bd8e7-936b-4f01-865f-fcc6890e2521)
 
 
 ## Conclusion
