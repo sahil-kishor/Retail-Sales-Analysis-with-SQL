@@ -500,8 +500,11 @@ ORDER BY
 
 This project serves as a comprehensive introduction to SQL for data analysts, focusing on the key aspects of database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. By applying SQL techniques to analyze retail sales data, several key findings were uncovered that could help drive strategic business decisions:
 
-Customer Demographics and Behavior: The identification of different customer segments and their spending patterns provides valuable insights into targeting marketing campaigns and improving customer engagement.
+* Customer Demographics and Behavior: The identification of different customer segments and their spending patterns provides valuable insights into targeting marketing campaigns and improving customer engagement.
 High-Value Transactions: Premium purchases represent a significant segment, and recognizing this allows for the design of tailored loyalty or rewards programs.
-Product Performance: Product categories like Clothing and Electronics emerged as top performers, helping guide decisions on inventory management and product promotions.
-Sales Trends and Growth: Monthly analysis of sales trends revealed stagnation in growth, indicating a need for further analysis into potential external factors, and opportunities for more targeted sales initiatives.
+
+* Product Performance: Product categories like Clothing and Electronics emerged as top performers, helping guide decisions on inventory management and product promotions.
+
+* Sales Trends and Growth: Monthly analysis of sales trends revealed stagnation in growth, indicating a need for further analysis into potential external factors, and opportunities for more targeted sales initiatives.
+
 The findings from this project not only enhance SQL proficiency but also provide actionable insights that can improve sales performance, marketing strategies, and customer retention efforts.
