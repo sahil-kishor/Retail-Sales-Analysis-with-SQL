@@ -341,9 +341,9 @@ FROM retail_sales
 GROUP BY customer_id;
 ```
 
-	Q13. 1. Check the percentage of customer in each segment:
- 		
- 		'WITH segments AS (
+(Part 2) Q13. 1. Check the percentage of customer in each segment:
+```sql
+'WITH segments AS (
 		SELECT
 			customer_id,
 			COUNT(*) AS total_purchase,
@@ -368,6 +368,8 @@ GROUP BY customer_id;
 		    segments
 		GROUP BY
 		    customer_segment;
+```
+ 		
 
 14. **Identify the best-selling product category in terms of both quantity sold and total sales revenue.**
 ```sql
