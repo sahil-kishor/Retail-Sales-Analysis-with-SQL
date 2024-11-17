@@ -22,21 +22,37 @@ This project is designed to showcase SQL proficiency and techniques commonly emp
 **The repository is organized as follows:**
 
 /Retail_Sales_Analysis
+
 │
+
 ├── /data
+
 │   └── retail_sales_data.csv  # The raw data file
+
 │
+
 ├── /queries
+
 │   ├── data_cleaning.sql      # SQL queries for cleaning the data
+
 │   ├── exploratory_analysis.sql # SQL queries for EDA
+
 │   └── business_analysis.sql  # SQL queries answering business questions
+
 │
+
 ├── /reports
+
 │   ├── sales_summary_report.md    # Detailed sales summary
+
 │   ├── trend_analysis_report.md   # Monthly sales trends
+
 │   └── customer_insights_report.md # Top customers and customer segmentation
+
 │
+
 └── README.md                  # Project overview, setup instructions, and results
+
 
 
 ### 1. Database Setup
