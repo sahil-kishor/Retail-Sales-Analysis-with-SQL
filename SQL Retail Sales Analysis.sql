@@ -274,6 +274,34 @@ SELECT
 FROM retail_sales
 GROUP BY customer_id;
 
+-- (Part 2) Q13. 1. Check the percentage of customer in each segment:
+
+WITH segments AS (
+	SELECT
+		customer_id,
+		COUNT(*) AS total_purchase,
+		ROUND(AVG(total_sale):: numeric, 2) AS avg_amt_per_transaction, 
+		SUM(total_sale) AS total_sales,
+		CASE
+			WHEN COUNT(*) > 10 AND AVG(total_sale) > 500 THEN 'High Spender & Frequent Buyer'
+			WHEN COUNT(*) > 10 THEN 'Frequent Buyer'
+			WHEN AVG(total_sale) > 500 THEN 'High Spender'
+			ELSE 'Standard Customer'
+		END AS customer_segment
+	FROM retail_sales
+	GROUP BY customer_id
+	)
+		
+SELECT 
+    customer_segment,
+    COUNT(*) AS num_customers,
+    ROUND((COUNT(*) * 100.0 / SUM(COUNT(*)) OVER ()), 2) AS percentage_of_customers,
+    ROUND(AVG(total_sales)::numeric, 2) AS avg_sales_per_segment
+FROM 
+    segments
+GROUP BY
+    customer_segment;
+
 -- Q14. Write a SQL query to identify the best-selling product category in terms of both quantity sold 
 --		and total sales revenue.
 
@@ -338,10 +366,10 @@ SELECT
 	first_month AS initial_month,
 	COUNT(DISTINCT sp.customer_id) AS returning_customers,
 	(COUNT(DISTINCT sp.customer_id) * 100.0 / (
-												SELECT COUNT(DISTINCT f.customer_id)
-												FROM first_purchase f
-												WHERE TO_CHAR(f.first_purchase_date, 'YYYY-MM') = first_month
-												)) AS retention_rate
+							SELECT COUNT(DISTINCT f.customer_id)
+							FROM first_purchase f
+							WHERE TO_CHAR(f.first_purchase_date, 'YYYY-MM') = first_month
+							)) AS retention_rate
 FROM
 	subsequent_purchase sp
 GROUP BY
