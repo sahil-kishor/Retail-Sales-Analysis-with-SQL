@@ -511,3 +511,17 @@ High-Value Transactions: Premium purchases represent a significant segment, and 
 * Sales Trends and Growth: Monthly analysis of sales trends revealed stagnation in growth, indicating a need for further analysis into potential external factors, and opportunities for more targeted sales initiatives.
 
 The findings from this project not only enhance SQL proficiency but also provide actionable insights that can improve sales performance, marketing strategies, and customer retention efforts.
+
+
+### Author
+
+Project By: ***Sahil Kishor***
+**Contact:**
+	* `Email`: kishorsahil555@gmail.com
+ 	* `LinkedIn`: www.linkedin.com/in/sahil-kishor
+**Website:**
+	* `Portfolio`: https://sahil-kishor.github.io/
+ 
+**Project File:** https://github.com/sahil-kishor/Retail-Sales-Analysis-with-SQL/blob/main/SQL%20Retail%20Sales%20Analysis.sql
+
+***____Thank You____***
