@@ -518,11 +518,11 @@ The findings from this project not only enhance SQL proficiency but also provide
 Project By: ***Sahil Kishor***
 
 **Contact:**
-	* `Email`: kishorsahil555@gmail.com
- 	* `LinkedIn`: www.linkedin.com/in/sahil-kishor
+- `Email`: kishorsahil555@gmail.com
+- `LinkedIn`: www.linkedin.com/in/sahil-kishor
   
 **Website:**
-	* `Portfolio`: https://sahil-kishor.github.io/
+- `Portfolio`: https://sahil-kishor.github.io/
 
  
 **Project File:** https://github.com/sahil-kishor/Retail-Sales-Analysis-with-SQL/blob/main/SQL%20Retail%20Sales%20Analysis.sql
